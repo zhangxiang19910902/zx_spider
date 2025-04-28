@@ -33,3 +33,5 @@ data = json.dumps(data, separators=(',', ':'))
 response = requests.post(url, headers=headers,params=params, data=data)
 
 logger.info('响应数据==》》' + response.text)
+
+
