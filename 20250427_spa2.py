@@ -2,6 +2,7 @@ import hashlib
 import base64
 import time
 
+
 def i(*args):
     # 获取当前时间戳（秒）
     t = str(round(time.time()))
